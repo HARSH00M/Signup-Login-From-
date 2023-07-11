@@ -1,0 +1,22 @@
+{
+  "name": "signup-login-form",
+  "version": "1.0.0",
+  "description": "full-fledged form ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harsh Mahobia",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/HARSH00M/Signup-Login-From-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HARSH00M/Signup-Login-From-/issues"
+  },
+  "homepage": "https://github.com/HARSH00M/Signup-Login-From-#readme",
+  "dependencies": {
+    "node": "^20.4.0"
+  }
+}

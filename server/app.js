@@ -8,8 +8,14 @@ dotenv.config({path:"./config.env"})
 require('./DB/connection')
 const PORT = process.env.PORT
 
-// Middleware 
+//router from auth file
+server.use(express.json())
+server.use(require('./router/auth'))
 
+
+
+
+// Middleware 
 const Middleware = (req,res,next)=>{
     console.log("middleware worked");
     next();

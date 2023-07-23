@@ -22,8 +22,8 @@ const Middleware = (req,res,next)=>{
 }
  
 server.get('/',Middleware,(req,res)=>{
-    console.log("server connected")
-    res.send("Ok")
+    console.log("server connected\n")
+    res.send("Ok Home page")
 })
 
 

@@ -1,7 +1,6 @@
 const express=require('express'),
-    dotenv = require('dotenv')
-
-const server = express();
+    dotenv = require('dotenv'),
+    server = express();
 
 
 dotenv.config({path:"./config.env"})
